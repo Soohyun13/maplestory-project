@@ -38,7 +38,6 @@
   전투력 예측 성능 비교를 위한 다양한 트리 기반 앙상블 모델 실험
     - Random Forest Regressor  
     - Gradient Boosting Regressor  
-    - AdaBoost Regressor  
     - XGBoost Regressor  
     - CatBoost Regressor
 
