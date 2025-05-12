@@ -29,20 +29,20 @@
 해당 모델은 장비 정보를 Mask 기반으로 처리하는 DeepSets 구조를 활용하여, **유저의 전투력(로그 스케일 적용)을** 정밀하게 예측하는 것을 목표로 설계되었습니다.<br>
 불규칙한 장비 슬롯 구성에도 유연하게 대응하며, 다양한 장비 조합에 대해 유사한 패턴을 효과적으로 학습할 수 있다는 장점이 있습니다.
 
-이외에도 다양한 접근을 통해 성능 비교 및 유저 특성 분석을 시도하였습니다:
+  이외에도 다양한 접근을 통해 성능 비교 및 유저 특성 분석을 시도하였습니다:
 
-  - **K-Nearest Neighbors (KNN)**  
+    - **K-Nearest Neighbors (KNN)**  
   유저의 장비 정보 및 전투력을 바탕으로, 거리 기반으로 유사한 유저 탐색
 
-  - **Clustering (KMeans, DBSCAN 등)**  
+    - **Clustering (KMeans, DBSCAN 등)**  
   유저 스탯 및 장비 정보를 기반으로 한 군집화 및 그룹 분석
 
-  - **회귀 모델링 (Regression Models)**  
+    - **회귀 모델링 (Regression Models)**  
   전투력 예측 성능 비교를 위한 다양한 트리 기반 앙상블 모델 실험
-    - Random Forest Regressor  
-    - Gradient Boosting Regressor  
-    - XGBoost Regressor  
-    - CatBoost Regressor
+      - Random Forest Regressor  
+      - Gradient Boosting Regressor  
+      - XGBoost Regressor  
+      - CatBoost Regressor
 
     ※ 위 실험은 모델 선정 및 데이터 패턴 탐색에 참고용으로 사용되었으며, 최종 모델에는 포함되지 않았습니다.
 
