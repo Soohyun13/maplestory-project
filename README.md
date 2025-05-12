@@ -73,15 +73,14 @@
   - Matplotlib, Seaborn: 이탈 분포, 변수 상관관계 시각화
   - Requests: 넥슨 오픈 API를 활용한 데이터 수집 자동화
 
-- **Survival Models & Deep Learning** <br>
-본 프로젝트에서는 고레벨 메이플스토리 유저의 이탈을 예측하는 데 초점을 맞춰, 시간에 따른 이탈 가능성을 정량적으로 분석할 수 있는 생존 분석 기반의 머신러닝 모델을 주로 사용하였습니다.
-
 - **Modeling** <br>
+본 프로젝트에서는 고레벨 메이플스토리 유저의 이탈을 예측하는 데 초점을 맞춰, 시간에 따른 이탈 가능성을 정량적으로 분석할 수 있는 생존 분석 기반의 머신러닝 모델을 주로 사용하였습니다.
 일반 머신러닝은 ‘이탈 여부’만 예측하나, 생존 분석은 시간 흐름에 따른 이탈 위험도 예측이 가능합니다.
 
-    - **GBSA (Gradient Boosting Survival Analysis)**
-      특징: 비선형 관계, 상호작용 반영에 강함
-    - RSF (Random Survival Forest)
-      특징: 비선형/비비례 위험 가정 없이 안정적인 학습 가능
-    - LSTM (Long Short-Term Memory)
-      특징: 행동 데이터의 시계열 흐름 반영 가능
+  - **Survival Models & Deep Learning**
+      - **GBSA (Gradient Boosting Survival Analysis)** <br>
+        비선형 관계, 상호작용 반영에 강함
+      - RSF (Random Survival Forest)  <br>
+        비선형/비비례 위험 가정 없이 안정적인 학습 가능
+      - LSTM (Long Short-Term Memory)  <br>
+        행동 데이터의 시계열 흐름 반영 가능
