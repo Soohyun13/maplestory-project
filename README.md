@@ -24,7 +24,7 @@
   - Matplotlib, Seaborn: 데이터 시각화
   - Requests: API를 활용한 데이터 수집
 
-- **Modeling**
+- **Modeling** <br>
 본 프로젝트에서는 최종 예측 모델로 **Deepsets 기반의 딥러닝 모델인 DeepMaskedModel**을 사용하였습니다.<br>
 해당 모델은 장비 정보를 Mask 기반으로 처리하는 DeepSets 구조를 활용하여, **유저의 전투력(로그 스케일 적용)을** 정밀하게 예측하는 것을 목표로 설계되었습니다.<br>
 불규칙한 장비 슬롯 구성에도 유연하게 대응하며, 다양한 장비 조합에 대해 유사한 패턴을 효과적으로 학습할 수 있다는 장점이 있습니다.
@@ -52,7 +52,7 @@
   - Matplotlib, Seaborn: 이탈 분포, 변수 상관관계 시각화
   - Requests: 넥슨 오픈 API를 활용한 데이터 수집 자동화
 
-- **Survival Models & Deep Learning**
+- **Survival Models & Deep Learning** <br>
 본 프로젝트에서는 고레벨 메이플스토리 유저의 이탈을 예측하는 데 초점을 맞춰, 시간에 따른 이탈 가능성을 정량적으로 분석할 수 있는 생존 분석 기반의 머신러닝 모델을 주로 사용하였습니다.
 
 - **Modeling** <br>
