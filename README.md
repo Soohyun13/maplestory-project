@@ -32,7 +32,7 @@
 
 ## 📂 데이터 개요
 
-- **출처**: [Nexon Open API](https://open.api.nexon.com)
+- **출처**: [Nexon Open API](https://openapi.nexon.com/ko/game/maplestory/?id=14))
 - **특징**
   - 46개 직업별 레벨 상위 1,000명의 장비 데이터로, 100만 행 이상의 방대한 데이터셋
 #### 📑 주요 변수 목록
